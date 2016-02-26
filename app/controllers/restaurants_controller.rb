@@ -1,4 +1,4 @@
-class RestaurantsController < ApplicationController
+class RestaurantsController < ProtectedController
   before_action :set_restaurant, only: [:show, :update, :destroy]
 
   # GET /restaurants

@@ -1,4 +1,4 @@
-class MealsController < ApplicationController
+class MealsController < ProtectedController
   before_action :set_meal, only: [:show, :update, :destroy]
 
   # GET /meals
