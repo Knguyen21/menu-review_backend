@@ -1,5 +1,5 @@
-class MealsController < ProtectedController
-  before_action :set_meal, only: [:show, :update, :destroy]
+class MealsController < OpenReadController
+    before_action :set_meal, only: [:show, :update, :destroy]
 
   # GET /meals
   # GET /meals.json
