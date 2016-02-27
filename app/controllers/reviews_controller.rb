@@ -1,5 +1,5 @@
 class ReviewsController < OpenReadController
-  before_action :set_review, only: [:show, :update, :destroy]
+  before_action :set_review, only: [:update, :destroy]
 
   # GET /reviews
   # GET /reviews.json
@@ -12,13 +12,14 @@ class ReviewsController < OpenReadController
   # GET /reviews/1
   # GET /reviews/1.json
   def show
+    @review = Review.find(params[:id])
     render json: @review
   end
 
   # POST /reviews
   # POST /reviews.json
   def create
-    @review = Review.new(review_params)
+    @review = current_user.reviews.new(review_params)
 
     if @review.save
       render json: @review, status: :created, location: @review
@@ -30,6 +31,7 @@ class ReviewsController < OpenReadController
   # PATCH/PUT /reviews/1
   # PATCH/PUT /reviews/1.json
   def update
+
     @review = Review.find(params[:id])
 
     if @review.update(review_params)
@@ -50,10 +52,10 @@ class ReviewsController < OpenReadController
   private
 
     def set_review
-      @review = Review.find(params[:id])
+      @review = current_user.reviews.find(params[:id])
     end
 
     def review_params
-      params.require(:review).permit(:comment, :rating)
+      params.require(:review).permit(:comment, :rating, :meal_id)
     end
 end

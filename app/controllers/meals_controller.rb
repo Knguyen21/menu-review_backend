@@ -54,6 +54,6 @@ class MealsController < OpenReadController
     end
 
     def meal_params
-      params.require(:meal).permit(:meal_type, :name, :desc, :price)
+      params.require(:meal).permit(:meal_type, :name, :desc, :price, :restaurant_id)
     end
 end
