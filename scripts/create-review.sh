@@ -3,7 +3,8 @@ curl --include --request POST http://localhost:3000/reviews \
   --header "Content-Type: application/json" \
   --data '{
     "review" : {
-    "comment" : "The best thing ever",
-     "rating" : "5"
+    "comment" : "OKay when I am hungry",
+     "rating" : "3",
+     "meal_id" : "2"
     }
   }'
