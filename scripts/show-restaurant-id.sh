@@ -1,1 +1,1 @@
-curl --include --request GET http://localhost:3000/restau/$ID 
+curl --include --request GET http://localhost:3000/restaurants/$ID 
