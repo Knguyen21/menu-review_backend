@@ -1,10 +1,11 @@
 class MealsController < OpenReadController
     before_action :set_meal, only: [:show, :update, :destroy]
+    before_filter :set_restaurant, only: [:index]
 
   # GET /meals
   # GET /meals.json
   def index
-    @meals = Meal.all
+    @meals = @restaurant.meals
 
     render json: @meals
   end
@@ -51,6 +52,10 @@ class MealsController < OpenReadController
 
     def set_meal
       @meal = Meal.find(params[:id])
+    end
+
+    def set_restaurant
+      @restaurant = Restaurant.find(params[:restaurant_id])
     end
 
     def meal_params
