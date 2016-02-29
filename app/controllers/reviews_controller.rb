@@ -1,10 +1,10 @@
 class ReviewsController < OpenReadController
   before_action :set_review, only: [:update, :destroy]
-
+  before_filter :set_meal, only: [:index]
   # GET /reviews
   # GET /reviews.json
   def index
-    @reviews = Review.all
+    @reviews = @meal.reviews
 
     render json: @reviews
   end
@@ -53,6 +53,10 @@ class ReviewsController < OpenReadController
 
     def set_review
       @review = current_user.reviews.find(params[:id])
+    end
+
+    def set_meal
+      @meal = Meal.find(params[:meal_id])
     end
 
     def review_params

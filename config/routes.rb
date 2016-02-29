@@ -10,6 +10,9 @@ Rails.application.routes.draw do
 
   resources :restaurants, except: [:new, :edit] do
     resources :meals, only: [:index, :create]
+  end
+    resources :meals, except: [:new, :edit] do
+    resources :reviews, only: [:index, :create]
 
   end
 
