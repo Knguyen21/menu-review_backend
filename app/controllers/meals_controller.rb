@@ -5,7 +5,7 @@ class MealsController < OpenReadController
   # GET /meals
   # GET /meals.json
   def index
-    @meals = @restaurant.meals
+    @meals = @restaurant.meals.where meal_type: params[:meal_type]
 
     render json: @meals
   end
