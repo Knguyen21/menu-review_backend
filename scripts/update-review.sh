@@ -1,5 +1,5 @@
-curl --include --request PATCH http://localhost:3000/reviews/8 \
-  --header "Authorization: Token token=94b49d60f7f4c469fbe8b44db096e136" \
+curl --include --request PATCH http://localhost:3000/reviews/5 \
+  --header "Authorization: Token token=12fc604805f8f292398f43450b3804e1" \
   --header "Content-Type: application/json" \
   --data '{
     "review" : {
