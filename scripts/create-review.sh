@@ -1,5 +1,5 @@
 curl --include --request POST http://localhost:3000/reviews \
-  --header "Authorization: Token token=991e526614170c775cdc4e564317cb00" \
+  --header "Authorization: Token token=17f2db1ab4efd6bdab62ad7876a46b25" \
   --header "Content-Type: application/json" \
   --data '{
     "review" : {

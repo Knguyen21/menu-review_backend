@@ -11,3 +11,20 @@ namespace :db do
     end
   end
 end
+
+
+require 'csv'
+namespace :db do
+  namespace :populate do
+    desc 'Fill the meals table with meal data'
+    task meals: :environment do
+      Meal.transaction do
+        CSV.foreach(Rails.root + 'data/meals.csv', headers: true) do |meal_row|
+          meal = meal_row.to_hash
+          next if Meal.exists? meal
+          Meal.create!(meal)
+        end
+      end
+    end
+  end
+end

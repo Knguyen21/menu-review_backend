@@ -17,4 +17,4 @@
 #                password_confirmation: nil)
 # end
 
-restaurants = Restaurant.create([{ name: 'Veggie Galaxy', address: "450 Massachusetts Ave, Cambridge, MA 02139"}, {name: "Miel Brasserie Provencale", address: "510 Atlantic Ave. Boston, MA 02210"}, {name: "Rowes Wharf Sea Grille ", address: "Boston Harbor Hotel, 70 Rowes Wharf, Boston, MA 02110"}])
+# restaurants = Restaurant.create([{ name: 'Veggie Galaxy', address: "450 Massachusetts Ave, Cambridge, MA 02139"}, {name: "Miel Brasserie Provencale", address: "510 Atlantic Ave. Boston, MA 02210"}, {name: "Rowes Wharf Sea Grille ", address: "Boston Harbor Hotel, 70 Rowes Wharf, Boston, MA 02110"}])

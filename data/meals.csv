@@ -1,28 +1,28 @@
-meal_type, name, desc, price, restaurant_id
-breakfast, "Prospect Street", omlete with smoked tofu, spinach and swiss gruyere",  10.95,
-breakfast, "Eggs Benedict", "poached eggs with fresh tomato, caramelized onion, and hollandaise on a grilled house-made black pepper biscuit", 10.95, 1
-breakfast, "Stuffed French Toast", "french toast with vanilla vegan cream cheese topped with caramelized banana butter, strawberry sauce, and maple syrup", 9.95, 1
-lunch, "BBQ Sandwich", "pulled barbecued jackfruit with grilled red onions, house-made pickle, and horseradish mayo served on house-made bun", 10.95, 1
-lunch, "Kendall Square Burger", "chipotle black bean burger with roasted red pepper puree, beer battered onion rings, roasted garlic mayo, and baby arugula", 10.95, 1
-lunch, "Harvard Square Burger", "mushroom chickpea burger with basil pesto, green cabbage slaw, and sweet corn mash", 10.75, 1
-dinner, "Shepherd's pie", "casserole of quinoa, button mushrooms, peas, carrots, corn and fresh herbs, topped with garlic mashed potatoes, served with a side of dressed field greens", 14.95, 1
-dinner, "Cauli of the Sea", "cornmeal crusted cauliflower, crispy fried with old bay seasoning, served with fries, green cabbage slaw and house-made remoulade", 14.25, 1
-dinner, "Mac and Cheese", "penne pasta in a creamy ricotta or pepperjack cheese sauce, topped with an herbed panko crust and served with a side of dressed field greens", 11.25, 1
-breakfast, "Eggs Benedict", "Poached White Mountain Organic Eggs, Spinach, Shallots, Espelette Pepper Hollandaise Sauce with Canadian Bacon", 17.00, 2
-breakfast, "Ricotta Breakfast", "Fresh Narragansett Creamery Ricotta, Spinach, Roasted Tomato, Avocado, Mushroom, Sourdough Toast, Two White Mountain Organic Poached Eggs", 16.00, 2
-breakfast, "Pancakes or Waffles", "Lemon Narragansett Creamery Ricotta Pancakes or Belgian Waffles with Berry Compote Choice of Vermont Maple Syrup, Vermont Honey or Vanilla Ice Cream", 17.00, 2
-lunch, "Rosemary Chicken Panini", "Chicken, mozzarella, artichoke, rosemary, chive, scallions, tomato cumin cilantro mayonnaise", 18.00, 2
-lunch, "House Lobster Roll", "Traditional or buttered warm Sweet Maine lobster, butter toasted roll", 26.00, 2
-lunch, "Spinach Artichoke Grilled Cheese Sandwich", "Fresh mozzarella, fontina, provolone, roasted artichokes, sautéed spinach", 18.00, 2
-dinner, "Winter Vegetable Fettuccine", "Artichoke, sautéed cremini mushrooms, radicchio,red onion, pine nuts, parmesan, lemon zest ", 24.00, 2
-dinner, "Prime New York Strip Steak", "18oz Bone-in Prime N.Y. Steak marinated with rosemary, thyme, garlic,haricot vert, caramelized shallot, olive oil chive mashed potatoes,Arbequina olive oil béarnaise", 48.00, 2
-dinner,  "Shrimp & Scallops", "Lemon, thyme marinated, carrot, asparagus, celery root purée, roasted potato chermoula, mascarpone, harissa olive oil emulsion", 27.00, 2
-breakfast, "Full American Breakfast", "Fresh Squeezed Juice - Two Eggs Any Style, Choice of Bacon, Ham, Sausage,Home Fried Potatoes, Toast, Butter and Preserves - Freshly BrewedRegular or Decaffeinated Coffee, Tea, Hot Chocolate and a Glass of Orange or Grapefruit Juice", 29.00, 3
-breakfast, "New England Style Corned Beef and Egg", "Poached Eggs over Corned Beef Hash with Tomato Hollandaise", 20.00,3
-breakfast, "Egg Sandwich on a Griddled Croissant", "Scrambled Eggs, American Cheese and Buttered Asparagus", 15.00, 3
-lunch, "Traditional Turkey Club", "Smoked Turkey, Tomatoes, Vermont Cheddar,Bacon and Lettuce, EVOO Mayo", 20.00, 3
-lunch, "Grilled Chicken Sandwich", "Buttermilk Roll, Melted Provolone, Lettuce, Tomato and Fries", 20.00, 3
-lunch, "Three Cheese Ravioli", "Roasted Tomato, Green Vidalia Onion and Black Olive Sauce", 21.00, 3
-dinner, "Grilled Romanesco Broccoli", "Roast Spaghetti Squash, Wild Mushrooms, Cauliflower Purée, Smoked Paprika Oil", 24.00, 3
-dinner, "Herb Rubbed Roasted Chicken Breast", "Herb Rubbed Roasted Chicken Breast with Winter Root Vegetables, Honey Peppercorn Glaze", 29.00, 3
-dinner, "Grilled Atlantic Monkfish", "Grilled Atlantic Monkfish with Carrot Infused Quinoa, Serrano Chilis and Heirloom Apples", 30.00, 3
+meal_type,name,desc,price,restaurant_id
+breakfast,"Prospect Street","omelette with smoked tofu, spinach and swiss gruyere",  10.95, 1
+breakfast,"Eggs Benedict","poached eggs with fresh tomato, caramelized onion, and hollandaise on a grilled house-made black pepper biscuit", 10.95, 1
+breakfast,"Stuffed French Toast","french toast with vanilla vegan cream cheese topped with caramelized banana butter, strawberry sauce, and maple syrup", 9.95, 1
+lunch,"BBQ Sandwich","pulled barbecued jackfruit with grilled red onions, house-made pickle, and horseradish mayo served on house-made bun", 10.95, 1
+lunch,"Kendall Square Burger","chipotle black bean burger with roasted red pepper puree, beer battered onion rings, roasted garlic mayo, and baby arugula", 10.95, 1
+lunch,"Harvard Square Burger","mushroom chickpea burger with basil pesto, green cabbage slaw, and sweet corn mash", 10.75, 1
+dinner,"Shepherd's pie","casserole of quinoa, button mushrooms, peas, carrots, corn and fresh herbs, topped with garlic mashed potatoes, served with a side of dressed field greens", 14.95, 1
+dinner,"Cauli of the Sea","cornmeal crusted cauliflower, crispy fried with old bay seasoning, served with fries, green cabbage slaw and house-made remoulade", 14.25, 1
+dinner,"Mac and Cheese","penne pasta in a creamy ricotta or pepperjack cheese sauce, topped with an herbed panko crust and served with a side of dressed field greens", 11.25, 1
+breakfast,"Eggs Benedict","Poached White Mountain Organic Eggs, Spinach, Shallots, Espelette Pepper Hollandaise Sauce with Canadian Bacon", 17.00, 2
+breakfast,"Ricotta Breakfast","Fresh Narragansett Creamery Ricotta, Spinach, Roasted Tomato, Avocado, Mushroom, Sourdough Toast, Two White Mountain Organic Poached Eggs", 16.00, 2
+breakfast,"Pancakes or Waffles","Lemon Narragansett Creamery Ricotta Pancakes or Belgian Waffles with Berry Compote Choice of Vermont Maple Syrup, Vermont Honey or Vanilla Ice Cream", 17.00, 2
+lunch,"Rosemary Chicken Panini","Chicken, mozzarella, artichoke, rosemary, chive, scallions, tomato cumin cilantro mayonnaise", 18.00, 2
+lunch,"House Lobster Roll","Traditional or buttered warm Sweet Maine lobster, butter toasted roll", 26.00, 2
+lunch,"Spinach Artichoke Grilled Cheese Sandwich","Fresh mozzarella, fontina, provolone, roasted artichokes, sautéed spinach", 18.00, 2
+dinner,"Winter Vegetable Fettuccine","Artichoke, sautéed cremini mushrooms, radicchio,red onion, pine nuts, parmesan, lemon zest", 24.00, 2
+dinner,"Prime New York Strip Steak","18oz Bone-in Prime N.Y. Steak marinated with rosemary, thyme, garlic,haricot vert, caramelized shallot, olive oil chive mashed potatoes,Arbequina olive oil béarnaise", 48.00, 2
+dinner,"Shrimp & Scallops","Lemon, thyme marinated, carrot, asparagus, celery root purée, roasted potato chermoula, mascarpone, harissa olive oil emulsion", 27.00, 2
+breakfast,"Full American Breakfast","Fresh Squeezed Juice - Two Eggs Any Style, Choice of Bacon, Ham, Sausage,Home Fried Potatoes, Toast, Butter and Preserves - Freshly BrewedRegular or Decaffeinated Coffee, Tea, Hot Chocolate and a Glass of Orange or Grapefruit Juice", 29.00, 3
+breakfast,"New England Style Corned Beef and Egg","Poached Eggs over Corned Beef Hash with Tomato Hollandaise", 20.00,3
+breakfast,"Egg Sandwich on a Griddled Croissant","Scrambled Eggs, American Cheese and Buttered Asparagus", 15.00, 3
+lunch,"Traditional Turkey Club","Smoked Turkey, Tomatoes, Vermont Cheddar,Bacon and Lettuce, EVOO Mayo", 20.00, 3
+lunch,"Grilled Chicken Sandwich","Buttermilk Roll, Melted Provolone, Lettuce, Tomato and Fries", 20.00, 3
+lunch,"Three Cheese Ravioli","Roasted Tomato, Green Vidalia Onion and Black Olive Sauce", 21.00, 3
+dinner,"Grilled Romanesco Broccoli","Roast Spaghetti Squash, Wild Mushrooms, Cauliflower Purée, Smoked Paprika Oil", 24.00, 3
+dinner,"Herb Rubbed Roasted Chicken Breast","Herb Rubbed Roasted Chicken Breast with Winter Root Vegetables, Honey Peppercorn Glaze", 29.00, 3
+dinner,"Grilled Atlantic Monkfish","Grilled Atlantic Monkfish with Carrot Infused Quinoa, Serrano Chilis and Heirloom Apples", 30.00, 3
