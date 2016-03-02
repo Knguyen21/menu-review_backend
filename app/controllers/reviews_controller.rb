@@ -19,7 +19,8 @@ class ReviewsController < OpenReadController
   # POST /reviews
   # POST /reviews.json
   def create
-    @review = current_user.reviews.new(review_params)
+    @review = current_user.reviews.new(review_params.merge({meal_id: params[:meal_id]}))
+
 
     if @review.save
       render json: @review, status: :created, location: @review
@@ -54,6 +55,7 @@ class ReviewsController < OpenReadController
     def set_review
       @review = current_user.reviews.find(params[:id])
     end
+
 
     def set_meal
       @meal = Meal.find(params[:meal_id])
